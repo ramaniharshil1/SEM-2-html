@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Table</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" style="border-color: blue">
+        <tr align="center">
+            <td>foo</td>
+            <td>bar</td>
+            <td>baz</td>
+        </tr>
+        <tr align="center">
+            <td>
+                <table border="1" cellspacing="0" height="100px"  style="border-color: yellow">
+                <tr align="center">
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+                <tr align="center">
+                    <td>four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+                <tr align="center">
+                    <td>seven</td>
+                    <td>eight</td>
+                    <td>nine</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan="2" colspan="2">
+            <table border="1" cellspacing="0" height="120px" style="border-color: red">
+                <tr>
+                    <td >eins</td>
+                    <td>zwei</td>
+                    <td rowspan="2">drei<br>sechs</td>
+                </tr>
+                <tr>
+                    <td >vier</td>
+                    <td>funf</td>
+                </tr>
+            </table>
+        </td>
+        </tr>
+        <tr align="center">
+            <td>abc</td>
+        </tr>
+    </table>
+</body>
+</html>
