@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.mydiv{
+			border:red 5px;
+		}
+
+		@keyframes movement1{
+  		from{
+   		 	left: 0%;
+ 		}
+  		to{
+    		left: 90%;
+  		}
+	}
+
+		@keyframes movement2{
+  		from{
+    		top: 0%;
+  		}
+  		to{
+    		top: 90%;
+  		}
+	}
+
+		.image{
+  		animation-name: movement1, movement2;
+ 	 	animation-duration: 15s, 5s;
+  		animation-iteration-count: infinite;
+  		animation-direction: alternate;
+  		position: absolute;
+  		animation-timing-function: linear;
+        height: 60px;
+        width: 60px;
+}
+	</style>
+</head>
+<body>
+	<div class="mydiv">
+  <img class="image" src="C:\Users\harsh\OneDrive\Pictures\Saved Pictures\football.webp"> </img>
+</div>
+</div>
+</body>
+</html>
