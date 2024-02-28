@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Background{
+    margin: 10px 10px;
+    background-image: url(portfolio_back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_1{
+    padding: 15px 15px;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.Logo{
+    display:inline-block;
+    float: left;
+    margin: 0 400px 0 0;
+}
+.Logo div{
+    padding: 5px 10px;
+    font-size: xx-large;
+
+}
+.tag{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: xx-large;
+} 
+.List{
+    display: inline-block;
+    float: right;
+}
+.intro{
+    margin: 0 0 0 1000px;
+}
+.dev{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.use{
+    font-size: x-large;
+    margin: 20px 0 0 0 ;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    height: 100px;
+    width: 150px;
+    border: 8px solid red;
+    text-align: center;
+}

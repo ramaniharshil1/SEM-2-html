@@ -1,0 +1,12 @@
+.grad1{
+    background: linear-gradient(red,yellow);
+    height: 200px;
+    width: 200px;
+    margin-top: 10vh;
+}
+.grad2{
+    background: repeating-radial-gradient(red,yellow,green);
+    height: 200px;
+    width: 200px;
+    margin-top: 10vh;
+}

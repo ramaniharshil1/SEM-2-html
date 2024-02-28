@@ -1,0 +1,110 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 772px;
+}
+.margin{
+    margin: 25px 25px 0 25px;
+    border-radius: 10px;
+}
+.a1{
+    display: flex;
+    flex-direction: row;
+}
+.grad1{
+    background: linear-gradient(to top right,#66ff33,#2316b0);
+    height: 150px;
+    width: 200px;
+}
+.grad2{
+    background: linear-gradient(to top left,#f55252,#ca19ca);
+    height: 150px;
+    width: 200px;
+}
+.grad3{
+    background: linear-gradient(to top left,#f85706,#43e30e);
+    height: 150px;
+    width: 200px;
+}
+
+.a2{
+    display: flex;
+    flex-direction: row;
+
+}
+.grad4{
+    background: linear-gradient(to top left,#e1dd13,#10f01f);
+    height: 150px;
+    width: 200px;
+}
+.grad5{
+    background: linear-gradient(to top left,#1b0ce9,#03d9ff);
+    height: 150px;
+    width: 200px;
+}
+.grad6{
+    background: linear-gradient(to top left,#f604ca,#6678ff);
+    height: 150px;
+    width: 200px;
+}
+
+.a3{
+    display: flex;
+    flex-direction: row;
+}
+.grad7{
+    background: linear-gradient(to top left,#f41d09,#0411f7);
+    height: 150px;
+    width: 200px;
+}
+.grad8{
+    background: linear-gradient(to top left,#cdedc2f6,#fb3d08);
+    height: 150px;
+    width: 200px;
+}
+.grad9{
+    background: linear-gradient(to top left,#0de4f3,#d63636);
+    height: 150px;
+    width: 200px;
+}
+
+.a4{
+    display: flex;
+    flex-direction: row;
+}
+.grad10{
+    background: linear-gradient(to top left,#f0900a,#ff66ff);
+    height: 150px;
+    width: 200px;
+}
+.grad11{
+    background: linear-gradient(to top left,#66ff33,#5006fb);
+    height: 150px;
+    width: 200px;
+}
+.grad12{
+    background: linear-gradient(to top left,#04e4f8,#ff66ff);
+    height: 150px;
+    width: 200px;
+}
+
+.a5{
+    display: flex;
+    flex-direction: row;
+}
+.grad13{
+    background: linear-gradient(to top left,#66ff33,#061af2);
+    height: 150px;
+    width: 200px;
+}
+.grad14{
+    background: linear-gradient(to top left,#850303,#ff66ff);
+    height: 150px;
+    width: 200px;
+}
+.grad15{
+    background: linear-gradient(to top left,#f10909,#19ac05);
+    height: 150px;
+    width: 200px;
+}

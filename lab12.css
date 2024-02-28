@@ -1,0 +1,58 @@
+a{
+    font-size: 20px;
+    color: orange;
+}
+a:visited{
+    color: cornflowerblue;
+    background-color: black;
+}
+.a1{
+    font-size: 20px;
+    color: red;
+}
+.a1::first-line{
+    color: yellow;
+    font-size: 30px;
+}
+.a2{
+    color: blueviolet;
+    font-size: 20px;
+}
+.a2::first-letter{
+    color: aqua;
+    font-size: 40px;
+}
+.a1::before{
+     content: "darshan ";
+}
+.a1::afftr{
+    content: "DARSHAN UMS";
+}
+label{
+    color: blue;
+}
+label::selection{
+    background-color: aqua;
+}
+button{
+    height: 40px;
+}
+button:hover{
+    background-color: chartreuse;
+    
+}
+img{
+    height: 40px;
+    width: 50px;
+    filter: grayscale(100%);
+    transition: ease-in; 
+    animation-delay: 0.3s; 
+}
+img:hover{
+    box-shadow: 10px;
+    height: 50px;
+    width: 60px;
+    filter: grayscale(1%);
+    transition: ease-in;
+    animation-delay: 0.3s;
+}
